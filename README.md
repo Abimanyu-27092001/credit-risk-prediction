@@ -111,6 +111,7 @@ Local Explainability (SHAP & LIME)
     Borderline cases can be routed for manual review
 
 ⚙️ How to Run the Project
+
     1️⃣ Install dependencies
         pip install -r requirements.txt
 
