@@ -113,9 +113,11 @@ Local Explainability (SHAP & LIME)
 ⚙️ How to Run the Project
 
     1️⃣ Install dependencies
+
         pip install -r requirements.txt
 
     2️⃣ Run the notebook
+    
         credit_risk_prediction.ipynb
 
 
