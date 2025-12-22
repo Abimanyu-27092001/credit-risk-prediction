@@ -69,3 +69,39 @@ credit-risk-prediction/
 ├── credit_risk_prediction.ipynb    # Orchestration notebook
 ├── requirements.txt
 └── README.md
+```
+---
+
+## 📊 Model Performance
+
+**Final Test Performance (Calibrated):**
+- ROC-AUC: ~0.78  
+- F1-score (optimized threshold): ~0.59  
+- Threshold: Optimized on validation set
+
+---
+
+## 🔍 Explainability
+
+- Global feature importance using SHAP
+- Local explanations using SHAP force plots
+- Instance-level explanations using LIME
+- Structured JSON outputs for auditability
+
+---
+
+## 🧪 Technologies Used
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- LightGBM
+- SHAP, LIME
+- Imbalanced-learn (SMOTE)
+
+---
+
+## 🎯 Author
+
+**Abimanyu**  
+Aspiring Machine Learning Engineer
