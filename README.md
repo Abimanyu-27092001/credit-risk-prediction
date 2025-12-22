@@ -90,6 +90,16 @@ credit-risk-prediction/
 
 ---
 
+## 🔍 Interactive Demo
+
+A minimal Streamlit application is included to demonstrate
+threshold-based credit risk decisioning using the trained model.
+
+> Note: The demo is for educational purposes only and does not
+represent a real credit decision system.
+
+---
+
 ## 🧪 Technologies Used
 
 - Python
@@ -98,6 +108,7 @@ credit-risk-prediction/
 - LightGBM
 - SHAP, LIME
 - Imbalanced-learn (SMOTE)
+- Streamlit
 
 ---
 
