@@ -69,7 +69,7 @@ credit-risk-prediction/
 ├── credit_risk_prediction.ipynb    # Orchestration notebook
 ├── requirements.txt
 └── README.md
-```
+```text
 📊 Dataset
 Source: UCI Machine Learning Repository
 Dataset: German Credit Data
@@ -117,7 +117,7 @@ Local Explainability (SHAP & LIME)
         pip install -r requirements.txt
 
     2️⃣ Run the notebook
-    
+
         credit_risk_prediction.ipynb
 
 
