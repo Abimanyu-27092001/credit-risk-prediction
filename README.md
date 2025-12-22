@@ -69,21 +69,25 @@ credit-risk-prediction/
 ├── credit_risk_prediction.ipynb    # Orchestration notebook
 ├── requirements.txt
 └── README.md
-```text
-📊 Dataset
+
+##📊 Dataset
 Source: UCI Machine Learning Repository
 Dataset: German Credit Data
 Samples: 1000
 Target: Credit default (binary)
 
-📈 Model Performance
+---
+
+##📈 Model Performance
 Final Test Performance (calibrated):
     ROC-AUC: ~0.78
     F1-score (optimized threshold): ~0.59
     Threshold: Optimized on validation set
 These results are realistic and competitive for classical credit risk datasets.
 
-🔍 Explainability & Interpretability
+---
+
+##🔍 Explainability & Interpretability
 Global Explainability (SHAP)
     Identifies the most influential features driving default risk
     Top drivers include:
@@ -102,7 +106,9 @@ Local Explainability (SHAP & LIME)
         LIME feature contribution lists
     This enables transparent, auditable, and defensible decisions.
 
-🧩 Business Insights
+---
+
+##🧩 Business Insights
     Applicants with weak checking/savings balances and longer loan durations show higher default risk
     Probability calibration improves decision reliability
     Threshold tuning allows flexible business strategies:
@@ -110,18 +116,20 @@ Local Explainability (SHAP & LIME)
         Higher precision → aggressive lending
     Borderline cases can be routed for manual review
 
-⚙️ How to Run the Project
+---
 
+##⚙️ How to Run the Project
     1️⃣ Install dependencies
-
+```text
         pip install -r requirements.txt
 
     2️⃣ Run the notebook
-
+```text
         credit_risk_prediction.ipynb
 
+---
 
-🧪 Technologies Used
+##🧪 Technologies Used
     Python
     Pandas, NumPy
     Scikit-learn
@@ -131,13 +139,17 @@ Local Explainability (SHAP & LIME)
     LIME
     Matplotlib
 
-🎯 Use Cases
+---
+
+##🎯 Use Cases
     Credit risk assessment
     Loan underwriting decision support
     Explainable AI (XAI) demonstrations
     Model auditability and compliance
     ML Engineer / ML Intern portfolio project
 
-📌 Author
+---
+
+##📌 Author
     Abimanyu
     Machine Learning Engineer (Aspiring)
