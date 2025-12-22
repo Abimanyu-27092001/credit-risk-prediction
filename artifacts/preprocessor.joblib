@@ -1,0 +1,1 @@
+joblib.dump(preprocessor, "artifacts/preprocessor.joblib")
