@@ -114,5 +114,5 @@ represent a real credit decision system.
 
 ## 🎯 Author
 
-**Abimanyu**  
+**Abimanyu M**  
 Machine Learning Engineer
